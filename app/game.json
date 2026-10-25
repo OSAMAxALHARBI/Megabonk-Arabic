@@ -1,0 +1,63 @@
+{
+ "id": "Megabonk",
+ "exe_name": "MegabonkArabic",
+ "github": "OSAMAxALHARBI/Megabonk-Arabic",
+ "site_url": "https://iosamai.com/megabonk/",
+ "name": {
+  "ar": "ميغابونك",
+  "en": "Megabonk"
+ },
+ "platform": {
+  "ar": "ستيم",
+  "en": "PC (Steam)"
+ },
+ "backup_dir": "MegabonkArabic-backup",
+ "patch_root": "",
+ "steam_dir": "Megabonk",
+ "must_have": [
+  "Megabonk.exe",
+  "GameAssembly.dll",
+  "Megabonk_Data/sharedassets0.assets"
+ ],
+ "close_processes": [
+  "Megabonk"
+ ],
+ "folder_label": {
+  "ar": "مجلد اللعبة (اللي فيه Megabonk.exe)",
+  "en": "Game folder (the one with Megabonk.exe)"
+ },
+ "folder_hint": {
+  "ar": "اختر مجلد Megabonk في مكتبة ستيم، مثل steamapps\\common\\Megabonk.",
+  "en": "Choose the Megabonk folder in your Steam library, for example steamapps\\common\\Megabonk."
+ },
+ "mismatch": {
+  "ar": "التعريب مسوّى لنسخة ستيم 1.0.69 (رقم البناء 21750826) بدون مودات. إذا عندك BepInEx أو مودات ثانية شيلها أول. وإذا الملفات تغيرت: خصائص اللعبة ← الملفات المثبتة ← التحقق من سلامة ملفات اللعبة، وبعدين ثبّت التعريب.",
+  "en": "The translation is made for Steam version 1.0.69 (build 21750826) without mods. If you have BepInEx or other mods, remove them first. If the files changed: Properties > Installed Files > Verify integrity of game files, then install the translation."
+ },
+ "before": {
+  "ar": "سكّر اللعبة. التعريب ياخذ مكان الإنجليزية، ومعه BepInEx وإضافة صغيرة ترتب النص العربي (وصف الخريطة والأهداف الطويلة). أول تشغيل بعد التثبيت ياخذ دقيقة أو دقيقتين ويحتاج إنترنت.",
+  "en": "Close the game. The translation takes the place of English, and comes with BepInEx and a small plugin that orders Arabic text (map description, long objectives). The first start after installing takes a minute or two and needs internet."
+ },
+ "requirements": [
+  {
+   "ar": "نسخة ستيم من اللعبة، الإصدار 1.0.69 (رقم البناء 21750826).",
+   "en": "The Steam version of the game, version 1.0.69 (build 21750826)."
+  },
+  {
+   "ar": "بدون BepInEx أو مودات ثانية في مجلد اللعبة.",
+   "en": "No BepInEx or other mods in the game folder."
+  }
+ ],
+ "links": [],
+ "after_install": [
+  {
+   "ar": "شغّل اللعبة واترك اللغة على English: النصوص تطلع بالعربي. أول تشغيل ياخذ دقيقة أو دقيقتين، لا تسكّرها.",
+   "en": "Start the game and keep the language on English: the text shows in Arabic. The first start takes a minute or two; do not close it."
+  },
+  {
+   "ar": "إذا حدّثت ستيم اللعبة، افتح هذا البرنامج وثبّت التعريب مرة ثانية (بعد ما ينزل تحديث للتعريب).",
+   "en": "If Steam updates the game, open this program and install the translation again (once an updated translation is out)."
+  }
+ ],
+ "version": "1.0"
+}
